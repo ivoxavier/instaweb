@@ -1,0 +1,16 @@
+{
+    "name": "instaweb.ivoxavier",
+    "description": "Unofficial WebApp for Instagram",
+    "architecture": "@CLICK_ARCH@",
+    "title": "InstaWeb",
+    "hooks": {
+        "instaweb": {
+            "apparmor": "instaweb.apparmor",
+            "desktop":  "instaweb.desktop",
+            "content-hub": "instaweb-content-hub.json" 
+        }
+    },
+    "version": "0.0.1",
+    "maintainer": "Ivo Xavier <ivofernandes12@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

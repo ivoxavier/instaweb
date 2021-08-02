@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=InstaWeb
+Exec=qmlscene %U qml/Main.qml  --scaling --multisample --gles --fullscreen --disable-gpu
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Splash-Color=#501644
+X-Ubuntu-Splash-Image=assets/splash.png
