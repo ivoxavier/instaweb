@@ -81,7 +81,7 @@ MainView {
           importPage.imported.connect(function(fileUrl) {
             console.log(String(fileUrl).replace("file://", ""));
             request.dialogAccept(String(fileUrl).replace("file://", ""));
-            mainPageStack.push(pageMain)
+            mainPageStack.push(pageMain)  
           })
         }
         onNewViewRequested: {
