@@ -21,6 +21,7 @@ import QtWebEngine 1.7
 import Qt.labs.settings 1.0
 import QtSystemInfo 5.5
 import Ubuntu.Content 1.3
+import QtQuick.Controls.Suru 2.2
 
 
 MainView {
@@ -29,6 +30,9 @@ MainView {
   objectName: "mainView"
   
   property color b_color: "#501644"
+
+  width: units.gu(45)
+  height: units.gu(75)
 
   applicationName: "instaweb.ivoxavier"
   backgroundColor : "transparent"
@@ -64,7 +68,7 @@ MainView {
 
         profile:  WebEngineProfile {
           id: webContext
-          httpUserAgent: "Mozilla/5.0 (Linux, Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577 Safari/537.36"
+          httpUserAgent: "Mozilla/5.0 (Linux, Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
           storageName: "Storage"
           persistentStoragePath: "/home/phablet/.cache/instaweb.ivoxavier/instaweb.ivoxavier/QtWebEngine"
         }
@@ -72,8 +76,7 @@ MainView {
           fill:parent
           centerIn: parent.verticalCenter
         }
-        url: "https://www.instagram.com"
-
+        url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
         
         onFileDialogRequested: function(request) {
           request.accepted = true;

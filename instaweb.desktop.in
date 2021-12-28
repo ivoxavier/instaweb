@@ -1,6 +1,6 @@
 [Desktop Entry]
 _Name=InstaWeb
-Exec=qmlscene %U qml/Main.qml  --scaling --multisample --gles --fullscreen --disable-gpu
+Exec=qmlscene %U qml/Main.qml  --scaling --multisample --gles --disable-gpu
 Icon=assets/logo.svg
 Terminal=false
 Type=Application

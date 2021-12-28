@@ -1,8 +1,6 @@
 {
     "source": [
         "pictures",
-        "documents",
-        "videos",
-        "contacts"
+        "videos"
     ]
 }
