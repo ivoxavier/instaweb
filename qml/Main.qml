@@ -21,6 +21,7 @@ import QtWebEngine 1.7
 import Qt.labs.settings 1.0
 import QtSystemInfo 5.5
 import Ubuntu.Content 1.3
+import QtQuick.Controls.Suru 2.2
 
 
 MainView {
@@ -75,8 +76,7 @@ MainView {
           fill:parent
           centerIn: parent.verticalCenter
         }
-        url: "https://www.instagram.com"
-
+        url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
         
         onFileDialogRequested: function(request) {
           request.accepted = true;
