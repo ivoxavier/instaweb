@@ -30,6 +30,9 @@ MainView {
   
   property color b_color: "#501644"
 
+  width: units.gu(45)
+  height: units.gu(75)
+
   applicationName: "instaweb.ivoxavier"
   backgroundColor : "transparent"
   anchors {
@@ -64,7 +67,7 @@ MainView {
 
         profile:  WebEngineProfile {
           id: webContext
-          httpUserAgent: "Mozilla/5.0 (Linux, Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577 Safari/537.36"
+          httpUserAgent: "Mozilla/5.0 (Linux, Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
           storageName: "Storage"
           persistentStoragePath: "/home/phablet/.cache/instaweb.ivoxavier/instaweb.ivoxavier/QtWebEngine"
         }
