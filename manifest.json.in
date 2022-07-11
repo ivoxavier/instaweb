@@ -10,7 +10,7 @@
             "content-hub": "instaweb-content-hub.json" 
         }
     },
-    "version": "0.0.5",
+    "version": "0.0.6",
     "maintainer": "Ivo Xavier <ivofernandes12@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }
