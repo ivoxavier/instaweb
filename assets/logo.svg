@@ -7,8 +7,8 @@
    version="1.1"
    id="svg35"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.1 (35044de2a8, 2021-06-18)"
-   inkscape:export-filename="/home/ivo/ubtouchApps/instaweb/assets/splash.png"
+   inkscape:version="1.2 (0838b55d0b, 2022-06-10, custom)"
+   inkscape:export-filename="../89354120/splash.png"
    inkscape:export-xdpi="97.125"
    inkscape:export-ydpi="97.125"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -24,25 +24,29 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.53654489"
-     inkscape:cx="176.12692"
-     inkscape:cy="262.79255"
+     inkscape:zoom="0.75878906"
+     inkscape:cx="91.593308"
+     inkscape:cy="341.33333"
      inkscape:window-width="1920"
      inkscape:window-height="949"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg35"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050">
     <sodipodi:guide
        position="250.678,440.24459"
        orientation="1,0"
-       id="guide870" />
+       id="guide870"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="302.86375,261.322"
        orientation="0,-1"
-       id="guide872" />
+       id="guide872"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs7">
@@ -74,21 +78,6 @@
      inkscape:export-filename="/home/ivo/ubtouchApps/instaweb/assets/splash.png"
      inkscape:export-xdpi="97.125"
      inkscape:export-ydpi="97.125" />
-  <g
-     transform="translate(0,18)"
-     id="g17"
-     style="fill:#d42aff">
-    <path
-       style="color:#000000;opacity:0.3;fill:#d42aff;enable-background:accumulate"
-       d="M 256,256 108.2,512 H 512 V 256 H 389.3 Z"
-       transform="translate(0,-18)"
-       id="path13" />
-    <path
-       style="color:#000000;opacity:0.15;fill:#d42aff;enable-background:accumulate"
-       d="M 0,0 V 512 H 108.2 L 184.6,379.7 256,256 187.1,136 186.9,136.3 108.2,0 Z"
-       transform="translate(0,-18)"
-       id="path15" />
-  </g>
   <path
      d="m-208.3 605.6c-7.842 0-14.55 5.029-17.32 12.19-0.0612-0.00067-0.1208 0-0.1823 0-7.088 0-12.83 6.002-12.83 13.41 0 7.404 5.746 13.41 12.83 13.41h17.5 16.33c5.155 0 9.333-4.365 9.333-9.75 0-4.543-2.974-8.363-7-9.445 0.001-0.1029 0-0.2015 0-0.3047 0-10.77-8.357-19.5-18.67-19.5z"
      style="stroke-width:4;color:#000000;stroke:#ccc;enable-background:accumulate;display:none;fill:#fff"
@@ -135,8 +124,7 @@
        id="rect31" />
   </g>
   <path
-     d="m 171.027,55.716396 c -63.43331,0 -115.051417,51.414764 -115.051417,114.598194 v 158.67444 c 0,63.18347 51.618107,114.59821 115.051417,114.59821 h 159.30199 c 63.43326,0 115.05141,-51.41474 115.05141,-114.59821 V 170.31459 c 0,-63.18343 -51.61815,-114.598194 -115.05141,-114.598194 z m 0,17.630508 h 159.30199 c 53.86602,0 97.35121,43.313876 97.35121,96.967686 v 158.67444 c 0,53.65383 -43.48519,96.96773 -97.35121,96.96773 H 171.027 c -53.866,0 -97.351206,-43.3139 -97.351206,-96.96773 V 170.31459 c 0,-53.65381 43.485206,-96.967686 97.351206,-96.967686 z m 168.1521,70.521976 c 0,9.73705 0,-9.73706 0,0 z m -88.5011,8.81522 c -53.66079,0 -97.3512,43.51832 -97.3512,96.96772 0,53.44939 43.69041,96.96772 97.3512,96.96772 53.66078,0 97.35121,-43.51833 97.35121,-96.96772 0,-53.4494 -43.69043,-96.96772 -97.35121,-96.96772 z m 0,17.63049 c 44.09487,0 79.65099,35.41607 79.65099,79.33723 0,43.92116 -35.55612,79.33721 -79.65099,79.33721 -44.09488,0 -79.651,-35.41605 -79.651,-79.33721 0,-43.92116 35.55612,-79.33723 79.651,-79.33723 z"
-     id="path2"
-     style="fill:#e3d7f4;stroke-width:0.999998"
-     sodipodi:nodetypes="ssssssssssssssssssssssssssssss" />
+     d="m 162.15854,37.4169 c -74.08139,0 -134.364395,58.028602 -134.364395,129.33958 v 179.08556 c 0,71.31113 60.283005,129.3396 134.364395,129.3396 h 186.04301 c 74.08153,0 134.36444,-58.02847 134.36444,-129.3396 V 166.75648 c 0,-71.310978 -60.28291,-129.33958 -134.36444,-129.33958 z m 0,19.898382 h 186.04301 c 62.90818,0 113.69298,48.885588 113.69298,109.441198 v 179.08556 c 0,60.55572 -50.7848,109.44121 -113.69298,109.44121 H 162.15854 c -62.908176,0 -113.692958,-48.88549 -113.692958,-109.44121 V 166.75648 c 0,-60.55561 50.784782,-109.441198 113.692958,-109.441198 z m 217.05019,59.695208 a 20.671447,19.898399 0 0 0 -20.67144,19.89838 20.671447,19.898399 0 0 0 20.67144,19.89842 20.671447,19.898399 0 0 0 20.67145,-19.89842 20.671447,19.898399 0 0 0 -20.67145,-19.89838 z m -124.02866,29.8476 c -62.66841,0 -113.69297,49.1163 -113.69297,109.44118 0,60.32488 51.02456,109.4412 113.69297,109.4412 62.66848,0 113.69296,-49.11632 113.69296,-109.4412 0,-60.32488 -51.02448,-109.44118 -113.69296,-109.44118 z m 0,19.89839 c 51.49678,0 93.02148,39.9718 93.02148,89.54279 0,49.57098 -41.5247,89.54277 -93.02148,89.54277 -51.4967,0 -93.02153,-39.97179 -93.02153,-89.54277 0,-49.57099 41.52483,-89.54279 93.02153,-89.54279 z"
+     id="path220"
+     style="fill:#ffffff;stroke-width:1" />
 </svg>

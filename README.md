@@ -2,6 +2,11 @@
 
 Unofficial WebApp for Instagram Web
 
+#### Logo License
+
+Logo used from: 
+<a target="_blank" href="https://icons8.com/icon/32292/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 ## License
 
 Copyright (C) 2021  Ivo Xavier
