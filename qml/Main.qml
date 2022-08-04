@@ -76,6 +76,14 @@ MainView {
           fill:parent
           centerIn: parent.verticalCenter
         }
+
+        userScripts: WebEngineScript {
+          injectionPoint: WebEngineScript.DocumentReady
+          worldId: WebEngineScript.MainWorld
+          name: "scrollbartheme"
+          sourceUrl: "scrollBarTheme.js"
+      }
+
         url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
         
         onFileDialogRequested: function(request) {
