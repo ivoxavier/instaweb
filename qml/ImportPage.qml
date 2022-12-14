@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 Stefano Verzegnassi
  * 
- * Copyright (C) 2021 Ivo Xavier
+ * Copyright (C) 2021-2022 Ivo Xavier
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License 3 as published by
  * the Free Software Foundation.
@@ -16,8 +16,8 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
-import Ubuntu.Content 1.3
+import Lomiri.Components 1.3
+import Lomiri.Content 1.3
 import QtQuick.Controls.Suru 2.2
 
 

@@ -14,13 +14,13 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import QtQuick.Window 2.2
 import Morph.Web 0.1
 import QtWebEngine 1.7
 import Qt.labs.settings 1.0
 import QtSystemInfo 5.5
-import Ubuntu.Content 1.3
+import Lomiri.Content 1.3
 import QtQuick.Controls.Suru 2.2
 
 
@@ -38,7 +38,7 @@ MainView {
   backgroundColor : "transparent"
   anchors {
     fill: parent
-    bottomMargin: UbuntuApplication.inputMethod.visible ? UbuntuApplication.inputMethod.keyboardRectangle.height/(units.gridUnit / 8) : 0
+    bottomMargin: LomiriApplication.inputMethod.visible ? LomiriApplication.inputMethod.keyboardRectangle.height/(units.gridUnit / 8) : 0
     Behavior on bottomMargin {
         NumberAnimation {
             duration: 175
