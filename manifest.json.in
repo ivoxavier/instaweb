@@ -7,10 +7,11 @@
         "instaweb": {
             "apparmor": "instaweb.apparmor",
             "desktop":  "instaweb.desktop",
-            "content-hub": "instaweb-content-hub.json" 
+            "content-hub": "instaweb-content-hub.json" ,
+            "urls": "app-dispatcher.json"
         }
     },
-    "version": "0.1.1",
+    "version": "0.2.0",
     "maintainer": "Ivo Xavier <ivofernandes12@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

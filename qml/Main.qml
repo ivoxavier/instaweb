@@ -31,6 +31,8 @@ MainView {
   
   property color b_color: "#501644"
 
+  property string open_url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
+
   width: units.gu(45)
   height: units.gu(75)
 
@@ -59,6 +61,14 @@ MainView {
       id: pageMain
       anchors.fill: parent
 
+      Connections{
+          target: UriHandler
+          onOpened:{
+            console.log("AQUIUIUIUIU",uris)
+            mainView.open_url = uris
+          }
+      }
+
       WebEngineView {
         id: webview
         anchors{ fill: parent }
@@ -84,7 +94,7 @@ MainView {
           sourceUrl: "scrollBarTheme.js"
       }
 
-        url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
+        url: mainView.open_url
         
         onFileDialogRequested: function(request) {
           request.accepted = true;
