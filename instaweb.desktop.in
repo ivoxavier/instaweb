@@ -1,6 +1,10 @@
 [Desktop Entry]
 _Name=InstaWeb
+<<<<<<< Updated upstream
 Exec=qmlscene %U qml/Main.qml  --scaling --multisample --gles --fullscreen --disable-gpu
+=======
+Exec=qmlscene %U qml/Main.qml  
+>>>>>>> Stashed changes
 Icon=assets/logo.svg
 Terminal=false
 Type=Application

@@ -61,19 +61,40 @@ MainView {
         focus: true
         property var currentWebview: webview
         settings.pluginsEnabled: true
+        zoomFactor: 1.0
 
         profile:  WebEngineProfile {
           id: webContext
+<<<<<<< Updated upstream
           httpUserAgent: "Mozilla/5.0 (Linux, Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+=======
+          httpUserAgent: "Mozilla/5.0 (Linux; Android 11; Ubuntu Touch) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Mobile Safari/537.36"
+>>>>>>> Stashed changes
           storageName: "Storage"
           persistentStoragePath: "/home/phablet/.cache/instaweb.ivoxavier/instaweb.ivoxavier/QtWebEngine"
+          //persistentCookiesPolicy: WebEngineView.ForcePersistentCookies
+          //offTheRecord: true
+          //httpCacheType: WebEngineProfile.DiskHttpCache
         }
-        anchors {
+       /* anchors {
           fill:parent
           centerIn: parent.verticalCenter
+<<<<<<< Updated upstream
         }
         url: "https://www.instagram.com"
 
+=======
+        }*/
+
+      /*  userScripts: WebEngineScript {
+          injectionPoint: WebEngineScript.DocumentReady
+          worldId: WebEngineScript.MainWorld
+          name: "scrollbartheme"
+          sourceUrl: "scrollBarTheme.js"
+      }*/
+
+        url: Suru.theme === 0 ? "https://www.instagram.com/" : "https://www.instagram.com/?theme=dark"
+>>>>>>> Stashed changes
         
         onFileDialogRequested: function(request) {
           request.accepted = true;
